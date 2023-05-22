@@ -1,0 +1,21 @@
+.bg-1 {
+    height: 105vh;
+    background: #d26f8f;
+}
+
+.box-1 {
+    height: 50px;
+    width: 50px;
+    background: #531fc3;
+}
+
+.box-1-toggleClass {
+    height: 50px;
+    width: 50px;
+    background: #252525;
+}
+
+.bg-2 {
+    height: 105vh;
+    background: #88a997;
+}
