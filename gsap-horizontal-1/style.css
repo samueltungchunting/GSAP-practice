@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstCover, .thirdCover {
+    height: 100vh;
+    background: #555;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstCoverText, .thridCoverText {
+    color: #FFF;
+    font-size: 64px;
+}
+
+.horizontalScroll {
+    overflow: hidden;
+    /* to avoid user scoll horizontally at firstCover */
+}
+
+.scrollSection {
+    height: 100vh;
+    width: 300vw;
+    background: #999;
+    display: flex;
+    /* remember to add the display flex here ! */
+}
+
+.section1, .section2, .section3, .section4 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    background: rgba(176, 137, 45, 0.753);
+}
+.section2 {
+    background: rgb(225, 133, 133);
+}
+.section3 {
+    background: rgb(86, 140, 192);
+}
+.section4 {
+    background: rgb(68, 204, 152);
+}
